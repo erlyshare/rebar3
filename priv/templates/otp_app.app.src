@@ -5,7 +5,8 @@
   {mod, { {{name}}_app, []}},
   {applications,
    [kernel,
-    stdlib
+    stdlib,
+    erly_player
    ]},
   {env,[]},
   {modules, []},
