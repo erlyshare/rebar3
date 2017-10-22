@@ -8,10 +8,13 @@ _*
 *.swo
 .erlang.cookie
 ebin
+doc
 log
+*.iml
 erl_crash.dump
 .rebar
 logs
 _build
 .idea
 rebar3.crashdump
+mnesia

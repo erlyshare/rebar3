@@ -20,3 +20,5 @@ priv/templates/*.dtl.erl
 ebin
 .edts
 env
+.idea
+rebar3_3.3.4.iml

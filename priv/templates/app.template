@@ -5,7 +5,12 @@
 ]}.
 {template, "app.erl", "{{name}}/src/{{name}}_app.erl"}.
 {template, "sup.erl", "{{name}}/src/{{name}}_sup.erl"}.
+{template, "app_config.erl", "{{name}}/src/{{name}}_config.erl"}.
+{template, "app_proto.erl", "{{name}}/src/{{name}}_proto.erl"}.
+{template, "app_gm.erl", "{{name}}/src/{{name}}_gm.erl"}.
+{template, "app_control.erl", "{{name}}/src/{{name}}_control.erl"}.
 {template, "otp_app.app.src", "{{name}}/src/{{name}}.app.src"}.
+{template, "ErlMakefile", "{{name}}/Makefile"}.
 {template, "rebar.config", "{{name}}/rebar.config"}.
 {template, "gitignore", "{{name}}/.gitignore"}.
 {template, "LICENSE", "{{name}}/LICENSE"}.

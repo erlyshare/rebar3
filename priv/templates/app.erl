@@ -15,7 +15,12 @@
 %%====================================================================
 
 start(_StartType, _StartArgs) ->
-    {{name}}_sup:start_link().
+    erlang:register(?MODULE, self()),
+    {{name}}_config:init(), %% 初始化日志
+    {ok, SupPid} = {{name}}_sup:start_link(),
+    {{name}}_control:init(),
+    %% TODO do something init
+    {ok, SupPid}.
 
 %%--------------------------------------------------------------------
 stop(_State) ->
